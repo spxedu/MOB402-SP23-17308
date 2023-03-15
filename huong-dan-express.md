@@ -37,6 +37,10 @@ Chạy lệnh:
 ``` 
 npm install nodemon -g --save
 
+sau đó chạy lệnh dưới để kiểm tra, nếu có phiên bản hiện lên là thanh công:
+nodemon -v 
+
+
 ```
 sau đó chạy lệnh sau để  khởi động server
 
