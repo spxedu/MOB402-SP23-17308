@@ -5,6 +5,7 @@ Tham khảo: https://expressjs.com/en/starter/hello-world.html
  để cài đặt module express về.
 3. Tạo file index.js và viết code:
 
+```javascript
       var express = require('express');
       var app = express();
 
@@ -23,5 +24,5 @@ Tham khảo: https://expressjs.com/en/starter/hello-world.html
 
           console.log("Server đã chạy ");
       })
-
+```
 4. Chạy lệnh: node index.js và mở   trình duyệt web vào địa chỉ: http://localhost:8080 để xem kết quả
