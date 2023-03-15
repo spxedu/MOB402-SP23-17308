@@ -33,4 +33,12 @@ https://www.npmjs.com/package/nodemon
 Chạy lệnh:
 ``` 
 npm install nodemon -g --save
+
 ```
+sau đó chạy lệnh sau để  khởi động server
+
+```
+nodemon node index.js
+```
+
+
