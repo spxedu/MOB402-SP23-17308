@@ -40,7 +40,6 @@ npm install nodemon -g --save
 sau đó chạy lệnh dưới để kiểm tra, nếu có phiên bản hiện lên là thanh công:
 nodemon -v 
 
-
 ```
 sau đó chạy lệnh sau để  khởi động server
 
@@ -63,5 +62,10 @@ Tiếp theo chạy lệnh để cài node module
 ```
 npm install
 ```
-
+Chạy lệnh sau để bắt đầu start project
+```
+DEBUG=thuc-hanh-exp:* npm start
+// nếu có nodemon thì bạn thêm nodemon vào  trước
+nodemon DEBUG=thuc-hanh-exp:* npm start
+```
 
