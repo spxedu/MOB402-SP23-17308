@@ -69,3 +69,17 @@ DEBUG=thuc-hanh-exp:* npm start
 nodemon DEBUG=thuc-hanh-exp:* npm start
 ```
 
+## thử nghiệm
+
+sửa file /routes/index.js  thêm vào một route mới để chạy thử nghiệm
+```
+router.get('/gioithieu.php', (req,res, next)=>{
+  res.send('<h1>Xin chao, đây là giới thiệu </h1>');
+});
+```
+chú ý, code trên viết ở  trước dòng module.exports = router;
+ 
+sau đó chạy lại app và truy cập web với các địa chỉ: http://localhost:3000 và http://localhost:3000/gioithieu.php
+
+
+
