@@ -26,3 +26,9 @@ Tham khảo: https://expressjs.com/en/starter/hello-world.html
       })
 ```
 4. Chạy lệnh: node index.js và mở   trình duyệt web vào địa chỉ: http://localhost:8080 để xem kết quả
+
+## Sử dụng nodemon để tự động khởi động lại server khi sửa file js
+
+Chạy lệnh:
+``` npm install nodemon 
+```
