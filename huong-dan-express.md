@@ -59,5 +59,9 @@ chạy lệnh sau để tạo project
 express --view=ejs thuc-hanh-exp
 ```
 trong đó: thuc-hanh-exp là tên project bạn  muốn tạo
+Tiếp theo chạy lệnh để cài node module
+```
+npm install
+```
 
 
